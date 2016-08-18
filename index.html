@@ -15,7 +15,7 @@
         <form name="userform">
           <div class="form-group">
             <label for="rn-input">Enter a Roman numeral</label>
-            <input id="rn-input" type="text" class="form-control">
+            <input id="rn-input" pattern="^[ivxlcdmIVXLCDM]+$" type="text" class="form-control">
           </div>
           <button type="submit" class="btn btn-warning">Convert!</button>
         </form>
